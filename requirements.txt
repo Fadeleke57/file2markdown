@@ -3,3 +3,4 @@ uvicorn
 boto3
 pymupdf4llm
 pymupdfpro
+pymupdf==1.24.5
