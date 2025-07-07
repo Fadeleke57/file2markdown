@@ -14,7 +14,7 @@ class ConvertToMarkdownPayload(BaseModel):
 def convert_to_markdown(payload: ConvertToMarkdownPayload):
     tempdir = tempfile.TemporaryDirectory()
     with open(os.path.join(tempdir.name, payload.file_key), "wb") as f:
-        s3_client.download_file("", payload.file_key, f)
+        f.write(payload.file_key)
 
     data = md.convert(os.path.join(tempdir.name, payload.file_key))
     markdown = data.text_content
