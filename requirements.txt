@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-pymupdfllm
+pymupdf4llm
 pymupdfpro
