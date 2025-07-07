@@ -1,8 +1,8 @@
 {
   "builds": [
     {
-      "src": "build.sh",
-      "use": "@vercel/python"
+      "src": "main.py",
+      "use": "@vercel/python3.9"
     }
   ],
   "routes": [
