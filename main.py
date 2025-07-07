@@ -2,8 +2,7 @@ import os
 import tempfile
 from fastapi import FastAPI
 from markitdown import MarkItDown
-from pypdf import PdfReader
-from pydantic import BaseModel
+from pydantic import BaseModel  
 
 app = FastAPI()
 md = MarkItDown()
