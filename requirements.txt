@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+markitdown[pdf, pptx, docx, xlsx, html]
+boto3
