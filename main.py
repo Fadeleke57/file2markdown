@@ -4,7 +4,6 @@ from fastapi import FastAPI
 from markitdown import MarkItDown
 from pypdf import PdfReader
 from pydantic import BaseModel
-from boto3 import client as s3_client
 
 app = FastAPI()
 md = MarkItDown()
