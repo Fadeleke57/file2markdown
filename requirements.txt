@@ -1,8 +1,29 @@
-fastapi
-uvicorn
-boto3
-pymupdf4llm
-pymupdfpro
-pymupdf
-pydantic-settings
-pydantic
+annotated-types==0.7.0                  # same version
+anyio==3.7.1                            # downgraded from 4.9.0
+boto3==1.35.81                          # upgraded from 1.39.3
+botocore==1.35.81                      # upgraded from 1.39.3
+certifi==2024.8.30                     # downgraded from 2025.6.15
+charset-normalizer==3.4.0             # downgraded from 3.4.2
+click==8.1.7                           # downgraded from 8.1.8
+exceptiongroup==1.2.2                 # downgraded from 1.3.0
+fastapi==0.112.1                       # downgraded from 0.116.0
+h11==0.14.0                            # downgraded from 0.16.0
+idna==3.10                             # same version
+jmespath==1.0.1                        # same version
+pydantic==2.10.4                       # downgraded from 2.11.7
+pydantic-settings==2.4.0              # downgraded from 2.10.1
+pydantic_core==2.27.2                 # downgraded from 2.33.2
+PyMuPDF==1.26.1                        # downgraded from 1.26.3
+pymupdf4llm==0.0.17                    # downgraded from 0.0.26
+PyMuPDFPro==1.26.1                     # upgraded from 1.25.0
+python-dateutil==2.9.0.post0          # same version
+python-dotenv==1.0.1                  # downgraded from 1.1.1
+requests==2.32.3                       # downgraded from 2.32.4
+s3transfer==0.10.3                     # downgraded from 0.13.0
+six==1.15.0                            # downgraded from 1.17.0
+sniffio==1.3.1                         # same version
+starlette==0.38.2                     # downgraded from 0.46.2
+typing-inspection==0.4.1              # same version
+typing_extensions==4.12.2             # downgraded from 4.14.1
+urllib3==1.26.20                       # same version
+uvicorn==0.30
